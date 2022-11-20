@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<header>
+<h1 id="title"> Arsenal FC Membership </h1>
+  </header>
+<body>
+<p id="description">Fill out your details down below to complete your membership </p>
+
+<form id="survey-form">
+   <div class="input-headings">
+  <label for="name" id="name-label"> Name</label>
+  <input id="name" type="text" name="name" placeholder="Zaynul Abedin" class="form-inputs" required>
+  <br>
+  <label for="email" id="email-label"> Email</label>
+  <input id="email" type="email" name="email" placeholder="Abedin@Outlook.com" class="form-inputs" required>
+  <br>
+  <label for="number" id="number-label"> Age</label>
+  <input id="number" type="number" name="number" placeholder="16" min="16" max="100" class="form-inputs" required>
+  <br>
+
+  <label for="dropdown" id="item"> Select Item</label>
+  <select id="dropdown" class="form-inputs"  >
+    <option value="Home Jersey"> Home Jersey </option>
+    <option value="Away Jersey"> Away Jersey </option>
+    <option value="Third Kit"> Third Kit </option>
+  </select>
+<br>
+  <label for="jersey_color" id="jersey_color"> <b> Jersey Color:</b> </label>
+  <br>
+<input id="jn" type="radio"  name="color" value="red">
+<label for="jersey_color">Red </label>
+<br>
+  <input id="jt" type="radio" name="color" value="yellow">
+<label for="jersey_color">Yellow </label>
+<br>
+   <input id="jk" type="radio"  name="color" value="white">
+<label for="jersey_color">White </label>
+<br>
+
+  <label for="feature"><b> Membership Type: </b> </label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="free">
+  <label for="checkbox">Free membership</label> 
+<br>
+ <input id="h" type="checkbox" name="features" value="premium">
+  <label for="checkbox">Premium membership 10$</label>
+<br>
+ <input id="c" type="checkbox" name="features" value="vip">
+  <label for="checkbox">VIP 100$</label>
+<br>
+<br>
+
+  <label id="textarea">Additional Comments </label>
+<textarea id="area" name="instructions" rows="5" cols="40">
+
+  </textarea>
+<br>
+
+<input id="submit" type="submit" value="confirm" class="submit-button">
+  </div>
+</form>
+
+  </body>
+</html>
