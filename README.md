@@ -70,6 +70,7 @@ This project is open source and available under the [MIT License](https://openso
 
 **Happy Coding!** 🎈
 
-Coding Cat Gif
+
+![giphy (5)](https://github.com/user-attachments/assets/0b443e82-8e92-48eb-a361-b7a19c14fba9)
 
 </div>
